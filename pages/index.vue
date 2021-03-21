@@ -12,7 +12,7 @@
           <h5 v-if="tasksLoaded">{{ tasks.length }} Tasks Total</h5>
           <h5 v-else>Loading...</h5>
         </div>
-        <div class="card bookings" @click="toPage('/booking')">
+        <div class="card bookings" @click="toPage('/bookings')">
           <h5 v-if="bookingsLoaded">{{ bookingsCount }} Bookings Total</h5>
           <h5 v-else>Loading...</h5>
         </div>
