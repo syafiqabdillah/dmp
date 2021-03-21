@@ -47,7 +47,7 @@ export default {
   build: {},
 
   env: {
-    baseAPI: process.env.baseAPI || 'http://localhost:8000',
+    baseAPI: process.env.baseAPI,
     apiKey: process.env.apiKey,
     authDomain: process.env.authDomain,
     projectId: process.env.projectId,
